@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Tracy Plugin\n"
+"POT-Creation-Date: 2018-09-18 06:47+0200\n"
+"PO-Revision-Date: 2018-09-18 08:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: Martin Hlaváč\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+
+#: admin.php:13
+#, php-format
+msgid "%s - Settings"
+msgstr "%s - Nastavení"
+
+#: admin.php:43
+msgid "Check If User Is Logged In"
+msgstr "Kontrola, zda je uživatel přihlášen"
+
+#: admin.php:46 admin.php:77
+msgid "Off"
+msgstr "Vypnuto"
+
+#: admin.php:47 admin.php:78
+msgid "On"
+msgstr "Zapnuto"
+
+#: admin.php:49
+msgid "This option affects checking of logged users."
+msgstr "Tato volba ovlivňuje kontrolu přihlášených uživatelů."
+
+#: admin.php:53
+msgid "Only For User ID"
+msgstr "Pouze pro ID uživatele"
+
+#: admin.php:57
+msgid "Limit checking only for the specific user ID."
+msgstr "Doplnění kontroly pouze pro konkrétní ID uživatele."
+
+#: admin.php:58
+msgid ""
+"Note: The field is (not) active depending on the value: \"Check if the user "
+"is logged in\" and the change will take effect after save."
+msgstr ""
+"Pozn.: pole je (ne)aktivní v závisosti na hodnotě: “Kontrola, zda je "
+"uživatel přihlášen” a změna se projeví až po uložení."
+
+#: admin.php:63
+msgid "Debugger Mode"
+msgstr "Režim ladění"
+
+#: admin.php:66
+msgid "Detect"
+msgstr "Detekce"
+
+#: admin.php:67
+msgid "Development"
+msgstr "Vývoj"
+
+#: admin.php:68
+msgid "Production"
+msgstr "Produkce"
+
+#: admin.php:70
+msgid "One of the three options (constants) from class \"Tracy\\Debugger\"."
+msgstr "Jedna ze tří možností (konstant) ze třídy “Tracy\\Debugger”."
+
+#: admin.php:74
+msgid "Panels Filtering Allowed"
+msgstr "Filtrování panelů povoleno"
+
+#: admin.php:80
+msgid "This option affects application of filter \"wp_tracy_panels_filter\"."
+msgstr "Tato volba ovlivňuje aplikaci filtru “wp_tracy_panels_filter”."
+
+#: index.php:28
+#, php-format
+msgid ""
+"Your server is running on PHP %s, but this plugin requires at least PHP %s. "
+"Please do the upgrade."
+msgstr ""
+"Váš server běží na PHP %s, ale tento plugin vyžaduje alespoň PHP %s. "
+"Aktualizujte prosím."
+
+#: index.php:35
+#, php-format
+msgid ""
+"Your WordPress is in version %s, but this plugin requires at least version "
+"%s. Please start the upgrade."
+msgstr ""
+"Vaše WordPress je ve verzi %s, ale tento plugin vyžaduje alespoň verzi %s. "
+"Aktualizaci spusťte prosím."
+
+#: index.php:44
+msgid "First, install WP Tracy using Composer, run the command:"
+msgstr "Nejprve nainstalujte WP Tracy pomocí Composeru, spusťte příkaz:"
