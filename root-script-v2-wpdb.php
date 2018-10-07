@@ -14,5 +14,5 @@ if (KT::arrayIssetAndNotEmpty($postIds)) {
     foreach ($postIds as $postId) {
         $posts[] = get_post($postId);
     }
-    KT::pr($posts);
+    KT::dd($posts);
 }
